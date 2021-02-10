@@ -1,1 +1,2 @@
 # TETC-DQN-DQN-NN
+CODE FOR DQN/DQN+NN algorithm
