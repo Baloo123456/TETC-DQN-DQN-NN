@@ -13,7 +13,7 @@ import scipy.io as sio
 from function_class import func
 from DQN_NET import DeepQNetwork
 
-np.random.seed(2)
+#np.random.seed(2)
 
 trainM = 160000000
 testM=10000000

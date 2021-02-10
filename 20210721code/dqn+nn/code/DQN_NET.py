@@ -5,8 +5,8 @@ import pandas as pd
 
 import tensorflow as tf
 
-np.random.seed(1)
-tf.set_random_seed(1)
+#np.random.seed(1)
+#tf.set_random_seed(1)
 
 
 class DeepQNetwork:
