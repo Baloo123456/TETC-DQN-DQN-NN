@@ -35,7 +35,7 @@ transmit_action0 = np.zeros((125, 8))
 transmit_in1 = np.zeros((125, 68))
 transmit_action1 = np.zeros((125, 8))
 randomno = 0
-table=sio.loadmat('/home3/suntengxu/camera/2yi/0604_dqn_nn/0.65/store_CRF0604.mat')['store_CRF']
+table=sio.loadmat('store_CRF0604.mat')['store_CRF']
 picindex=np.zeros(3)
 # 数据统计 125（5种图片大小，5种置信度，5中等待时间） 68action维度
 
